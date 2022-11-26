@@ -1,5 +1,22 @@
-### GITIGNORE:
-The `tokens.json` file has to look like:
+## A Python audio visualizer with Spotify integration
+
+### How to use:
+The visualizer **does not** read audio data from Spotify. You have to figure out a way to route your audio output to a microphone input.
+
+#### Windows:
+Tools like [VB-Audio Cable](https://vb-audio.com/Cable/index.htm) or [Voicemeeter](https://vb-audio.com/Voicemeeter/index.htm) should do this pretty easily.
+
+#### Linux:
+You may be able to do this by default in PulseAudio or Pipewire, but I  like to use [qpwgraph](https://gitlab.freedesktop.org/rncbc/qpwgraph) or [Soundux](https://soundux.rocks/).
+
+#### Mac:
+I don't own a mac myself, but [VB-Audio Cable](https://vb-audio.com/Cable/index.htm) should work here too.\
+\
+After setting the audio and `tokens.json` file (check below) up, You'll be able to start the app. If you press escape you'll see a settings menu. There you have to select your input device at the bottom.\
+Have fun!
+
+### Gitignore:
+The `tokens.json` file (root) has to look like:
 ```json
 {
   "redirect_uri": "http://localhost:8888/callback",
@@ -7,4 +24,10 @@ The `tokens.json` file has to look like:
   "client_secret": "spotify_secret"
 }
 ```
-You have too create it yourself as I'm not looking into sharing my tokens.
+You have to create it yourself as I'm not looking into sharing mine. If you don't know how to get those values, use a guide like [this](https://medium.com/@maxtingle/getting-started-with-spotifys-api-spotipy-197c3dc6353b).
+
+### Important:
+Please don't create any issues about the third-party apps I linked. I don't have any control over them and won't be able to help you.
+
+### More projects by me:
+https://zohiu.de/projects/ 
