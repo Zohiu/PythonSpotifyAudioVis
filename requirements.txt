@@ -1,0 +1,5 @@
+pygame~=2.1.2
+pygame-menu~=4.2.8
+sounddevice~=0.4.5
+numpy~=1.23.4
+spotipy~=2.20.0
