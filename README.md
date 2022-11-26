@@ -27,7 +27,8 @@ The `tokens.json` file (root) has to look like:
 You have to create it yourself as I'm not looking into sharing mine. If you don't know how to get those values, use a guide like [this](https://medium.com/@maxtingle/getting-started-with-spotifys-api-spotipy-197c3dc6353b).
 
 ### Important:
-Please don't create any issues about the third-party apps I linked. I don't have any control over them and won't be able to help you.
+This has only been tested on Arch Linux. I cannot guarantee that this works anywhere else. If it doesn't work somewhere, please create an Issue.\
+Don't create any issues about the third-party apps I linked. I don't have any control over them and won't be able to help you.
 
 ### More projects by me:
 https://zohiu.de/projects/ 
