@@ -1,6 +1,6 @@
 ## A Python audio visualizer with Spotify integration
 
-![](https://youtu.be/pLURj0KpniQ)
+[Click here for a demo.](https://youtu.be/pLURj0KpniQ)
 
 ### How to use:
 The visualizer **does not** read audio data from Spotify. You have to figure out a way to route your audio output to a microphone input.
