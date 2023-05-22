@@ -33,4 +33,4 @@ This has only been tested on Arch Linux. I cannot guarantee that this works anyw
 Don't create any issues about the third-party apps I linked. I don't have any control over them and won't be able to help you.
 
 ### More projects by me:
-https://zohiu.de/projects/ 
+https://zohiu.de/
